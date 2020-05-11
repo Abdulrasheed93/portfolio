@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>RESUME</title>
+        <style media="screen">
+
+          .oree{
+                  width: 1050px;
+                  height: 1220px;
+                  margin: 0 auto;
+                  border-radius: 10px;
+                  background-color: var(--bg-color);
+                  color: var(--font-color);
+              }
+
+          .over{
+                  text-align:right;
+               }
+
+          .abdul{
+                  text-align:justify;
+                }
+
+          .column{
+                  float: left;
+                  width: 45%;
+                 }
+
+          #bad{
+                  color: blue;
+                  font-weight: bold;
+              }
+
+
+          .row:after{
+                  content: "";
+                  display: table;
+                  clear: both;
+                    }
+
+         .faree{
+                  float: left;
+                  width: 25%;
+               }
+
+         #myBtn{
+                  display: none;
+                  position: fixed;
+                  bottom: 20px;
+                  right: 30px;
+                  z-index: 99;
+                  border: none;
+                  outline: none;
+                  background-color: brown;
+                  color: white;
+                  cursor: pointer;
+                  padding: 15px;
+                  border-radius: 10px;
+                  font-size: 18px;
+              }
+
+       #myBtn:hover{
+                  background-color: rgb(50, 50, 50);
+                   }
+
+       [data-theme="dark"]{
+                  --primary-color: rgb(60,59,95);
+                  --secondary-color: rgb(129,140,171);
+                  --font-color: rgb(255,255,255);
+                  --bg-color: rgb(22,22,37);
+                        }
+
+       .theme-switch-wrapper{
+                  display: flex;
+                  align-items: center;
+                  float: right;
+                  position: -webkit-sticky;
+                  position: sticky;
+                  top: 0;
+                           }
+
+       .theme-switch{
+                  display: inline-block;
+                  height: 34px;
+                  position: relative;
+                  width: 60px;
+                    }
+
+       .theme-switch input{
+                  display:none;
+                          }
+
+       .slider{
+                  background-color: rgb(80,80,80);
+                  bottom: 0;
+                  cursor: pointer;
+                  left: 0;
+                  position: absolute;
+                  right: 0;
+                  top: 0;
+                  transition: .4s;
+              }
+
+      .slider:before{
+                  background-color: rgb(255,255,255);
+                  bottom: 4px;
+                  content: "";
+                  height: 26px;
+                  left: 4px;
+                  position: absolute;
+                  transition: .4s;
+                  width: 26px;
+                    }
+
+      input:checked + .slider{
+                  background-color: rgb(102,187,106);
+                             }
+
+      input:checked + .slider:before{
+                  transform: translateX(26px);
+                                    }
+
+      .slider.round{
+                  border-radius: 34px;
+                   }
+
+      .slider.round:before{
+                  border-radius: 50%;
+                          }
+
+      img{
+                  width: 90px;
+         }
+
+            </style>
+    </head>
+
+
+  <body>
+
+        <div class="theme-switch-wrapper" >
+          <p>🌞 &nbsp</p>
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+          <p>&nbsp 🌑</p>
+        </div>
+
+        <div class="oree">
+          <h1><strong>Abdulrasheed</strong> Adeleye</h1>
+          <h4 class="over">+2348032587618</h4>
+          <a href="amuhammad542@gmail.com" target="_blank" class ="over"><p>amuhammad542@gmail.com</p></a>
+          <hr/>
+
+          <div class="row">
+            <div class="column"><p id ="bad">Intro</p></div>
+            <div class="column">
+              <p class ="abdul">I am a competent Computer Scientist who is resourceful and committed with 1 year diverse
+              experience in Computer Science<br> and Tecnology. I seek to incoporate my acquired and learned
+              skills<br> in both indigenous and multinational organizations to help achieve business objectives
+              and overall goals.</p>
+            </div>
+          </div>
+          <hr/>
+
+          <div class="row">
+            <div class="column"><p id ="bad">Interests</p></div>
+            <div class="column">
+              <ul>
+                <li>Design</li>
+                <li>Frontend Engineering</li>
+                <li>User Experience</li>
+              </ul>
+            </div>
+          </div>
+          <hr/>
+
+          <div class="row">
+            <div class="column"><p id ="bad">Skills</p></div>
+            <div class="column">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\html5.jpg" alt="html5">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\js.jpg" alt="js">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\java.jpg" alt="java">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\ccn.jpg" alt="ccna">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\css.jpg" alt="css">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\os.jpg" alt="os">
+              <img src="\Users\ABDULRASHEED\Documents\ehealth\new\skills\python.jpg" alt="python">
+           </div>
+         </div>
+         <hr/>
+
+         <div class="row">
+           <div class="column"><p id ="bad">Education</p></div>
+           <div class="faree">
+             <p><b>Bachelor of Science in Computer Science</b></p>
+             <p>Ahmadu Bello University, Zaria</p>
+             <p>Zaria, Nigeria</p>
+           </div>
+           <div class="faree" align = "right"><p>Nov 2015 – Mar 2019</p></div>
+        </div>
+
+        <div class="row">
+          <div class="column">&nbsp</div>
+          <div class="faree">
+            <p><b>Diploma in Computer Science</b></p>
+            <p>Ahmadu Bello University, Zaria</p>
+            <p>Zaria, Nigeria</p>
+          </div>
+          <div class="faree" align = "right"><p>Jan 2013 – Aug 2015</p></div>
+       </div>
+       <hr/>
+
+       <div class="row">
+          <div class="column"><p id ="bad">Experience</p></div>
+          <div class="faree">
+            <p><b>Aims Group of Companies(Cool FM, Wazobia FM, Arewa Radio)</b></p>
+            <p>Post Held: Internship/NYSC</p>
+            <p>Kano, Nigeria</p>
+          </div>
+          <div class="faree" align = "right"><p>Jun 2019 – May 2020</p></div>
+      </div>
+
+      <div class="row">
+          <div class="column"><p>&nbsp</p></div>
+          <div class="faree">
+            <p><b>Institute of Computing and ICT, ABU Zaria</b></p>
+            <p>Post Held: Industrial Trainee</p>
+            <p>Zaria, Nigeria</p>
+          </div>
+          <div class="faree" align = "right"><p>Jun 2018 – Nov 2018</p></div>
+      </div>
+      <hr/>
+
+      <div class="row">
+          <div class="column"><p id ="bad">Projects</p></div>
+          <div class="column">
+            <p><a href="https://github.com/Abdulrasheed93/ehealth" target="_blank">github.com/Abdulrasheed93/ehealth</a></p>
+          </div>
+      </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      </div>
+
+      <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+
+        function topFunction() {
+          document.documentElement.scrollTop = 0;
+        }
+
+        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+            else {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        }
+
+        toggleSwitch.addEventListener('change', switchTheme, false);
+      </script>
+      </body>
+</html>
